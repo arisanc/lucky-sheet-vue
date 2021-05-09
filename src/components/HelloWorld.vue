@@ -122,6 +122,10 @@ export default {
                 ]
             });
           });
+
+          setTimeout(()=>{
+            console.log('luckySheet :>> ',luckysheet.getAllSheets()[0].getLuckysheetfile());
+          },1000)
       
     // });
   },
